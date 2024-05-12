@@ -1,60 +1,24 @@
 [
   {
-    "health": 100,
-    "stats": {},
-    "inventory": [],
-    "abilities": [],
-    "name": "ffffff",
-    "class": "ffffffff",
-    "history": "ffffff"
-  },
-  {
-    "health": 100,
-    "stats": {
-      "STR": 5
-    },
-    "inventory": [],
-    "abilities": [
-      "run"
+    "name": "Gogi",
+    "backstory": "the craziest",
+    "category": "Wizard",
+    "items": [
+      "Magic wand",
+      "Wizard's hat",
+      "Estrogen"
     ],
-    "name": "mania",
-    "class": "archer",
-    "history": "only "
-  },
-  {
-    "health": 100,
-    "stats": {},
-    "inventory": [],
-    "abilities": [],
-    "name": "dodik",
-    "class": "begunok",
-    "history": "zloj"
-  },
-  {
-    "health": 100,
+    "abilities": [
+      "Turn water into wine",
+      "Cry",
+      "Die for our sins"
+    ],
+    "max_health": 100,
     "stats": {
-      "DEX": 30
-    },
-    "inventory": [],
-    "abilities": [],
-    "name": "richard",
-    "class": "archer",
-    "history": "keks"
-  },
-  {
-    "health": 100,
-    "stats": {
-      "STR": 30,
+      "STR": 1,
       "DEX": -1,
-      "INT": 30,
-      "WIS": 300
-    },
-    "inventory": [],
-    "abilities": [
-      "be good"
-    ],
-    "name": "God",
-    "class": "god",
-    "history": "woooow"
+      "INT": 1,
+      "WIS": 1
+    }
   }
 ]
