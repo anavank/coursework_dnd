@@ -22,7 +22,6 @@ if __name__ == "__main__":
         "0": "Delete character",
         "1": "Edit name",
         "2": "Edit backstory",
-        "3": "Edit class",
         "4": "Edit items",
         "5": "Edit abilities",
         "6": "Edit stats",
@@ -53,10 +52,13 @@ if __name__ == "__main__":
     def ask_confirmation(prompt):
         result = input(prompt)
         if result == "Y" or result == "y":
-            return True                         # if user replied Y, then we exit from this function by using 'return'
+            return True                         # if user replied Y, then we exit from this function by 
+        #using 'return'
         if result == "N" or result == "n":
-            return False                        # if user replied N, then we exit from this function by using 'return'
-        ask_confirmation(prompt)                # if user's answer was neither Y or N (maybe he made a typo), then repeat this function
+            return False                        # if user replied N, then we exit from this function by
+        #using 'return'
+        ask_confirmation(prompt)                # if user's answer was neither Y or N (maybe he made a typo), 
+        #then repeat this function
 
     def start_character_creation():
         user_input = input("\nChoose the class of your character: Warrior (1) or Wizard(2): ")
@@ -142,7 +144,7 @@ if __name__ == "__main__":
             case "1":
                 start_character_name_edit(character_index)
             case "2":
-                pass # TODO: the same as name edit
+                start_character_back_story_edit(character_index)
             case "3":
                 pass  # TODO: the same as name edit
             case "4":
@@ -158,9 +160,11 @@ if __name__ == "__main__":
     def start_character_name_edit(character_index):
         new_name = input("Enter new character's name: ")
         character_manager.change_character_name(character_index, new_name)
+        
+    def start_character_back_story_edit(character_index):
+        new_back_story = input("Enter new char's backstory: ")
+        character_manager.change_character_back_story(character_index, new_back_story)
 
-    def start_character_class_edit(character_index):
-        pass # TODO
 
     print_available_commands()
 

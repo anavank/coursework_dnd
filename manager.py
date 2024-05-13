@@ -56,6 +56,12 @@ class CharacterManager:
         character_for_update.set_name(new_name)
 
         self.update_character(character_index, character_for_update)
+        
+    def change_character_back_story(self, character_index, new_back_story):
+        character_for_update = self.load_character_by_index(character_index)
+        character_for_update.set_back_story(new_back_story)
+
+        self.update_character(character_index, character_for_update)
 
     def update_character(self, character_index, updated_character):
         self.delete_character(character_index)

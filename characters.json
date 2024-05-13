@@ -20,5 +20,28 @@
       "INT": 1,
       "WIS": 1
     }
+  },
+  {
+    "name": "Maris",
+    "backstory": "cool dude",
+    "category": "Warrior",
+    "items": [
+      "Axe",
+      "Chainmail",
+      "Helmet",
+      "Testosterone"
+    ],
+    "abilities": [
+      "Berserk",
+      "Impenetrable",
+      "Permanent hangover"
+    ],
+    "max_health": 300,
+    "stats": {
+      "STR": 50,
+      "DEX": -1,
+      "INT": 5,
+      "WIS": 300
+    }
   }
 ]
